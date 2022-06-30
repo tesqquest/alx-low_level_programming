@@ -1,20 +1,22 @@
 	.file	"main.c"
 	.intel_syntax noprefix
-# GNU C17 (GCC) version 11.3.1 20220421 (Red Hat 11.3.1-2) (x86_64-redhat-linux)
-#	compiled by GNU C version 11.3.1 20220421 (Red Hat 11.3.1-2), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version none
-# GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-# options passed: -masm=intel -mtune=generic -march=x86-64 -Og
 	.text
 	.globl	main
 	.type	main, @function
 main:
-.LFB11:
+.LFB0:
 	.cfi_startproc
-# main.c:11: }
-	mov	eax, 0	#,
-	ret	
+	push	rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	mov	rbp, rsp
+	.cfi_def_cfa_register 6
+	mov	eax, 0
+	pop	rbp
+	.cfi_def_cfa 7, 8
+	ret
 	.cfi_endproc
-.LFE11:
+.LFE0:
 	.size	main, .-main
 	.ident	"GCC: (GNU) 11.3.1 20220421 (Red Hat 11.3.1-2)"
 	.section	.note.GNU-stack,"",@progbits
