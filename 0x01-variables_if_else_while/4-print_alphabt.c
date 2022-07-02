@@ -20,7 +20,7 @@ int main(void)
 
 	while (n <= 'z')
 	{
-		if (n == e || n == q)
+		if (n == 'e' || n == 'q')
 		{
 			n++;
 		}
