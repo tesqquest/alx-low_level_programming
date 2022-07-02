@@ -20,7 +20,7 @@ int main(void)
 
 	while (n <= 9)
 	{
-		putchar('n');
+		putchar('0' + n % 10);
 		n++;
 	}
 
