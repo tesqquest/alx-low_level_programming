@@ -17,7 +17,7 @@ int main(void)
 	char n, x;
 
 	n = 'a';
-	x = 'A'
+	x = 'A';
 
 	while (n <= 'z' && x <= 'Z')
 	{
