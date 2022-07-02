@@ -14,21 +14,15 @@
 
 int main(void)
 {
-	int n, x;
+	int n;
 
 	n = 0;
-	x = 'a';
 
 	while (n <= 9)
 	{
 		putchar('0' + n % 10);
+		putchar(',');
 		n++;
-	}
-
-	while (x <= 'f')
-	{
-		putchar(x);
-		x++;
 	}
 
 	putchar('\n');
