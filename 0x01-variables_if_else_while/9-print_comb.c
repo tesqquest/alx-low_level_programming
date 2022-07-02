@@ -21,7 +21,7 @@ int main(void)
 	while (n <= 9)
 	{
 		putchar('0' + n % 10);
-		putchar(',');
+		putchar(' '',');
 		n++;
 	}
 
