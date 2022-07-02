@@ -19,13 +19,18 @@ int main(void)
 	n = 'a';
 	x = 'A';
 
-	while (n <= 'z' && x <= 'Z')
+	while (n <= 'z')
 	{
 		putchar(n);
-		putchar(x);
 		n++;
+	}
+
+	while (x <= 'Z')
+	{
+		putchar(x);
 		x++;
 	}
+
 	putchar('\n');
 	return (0);
 }
