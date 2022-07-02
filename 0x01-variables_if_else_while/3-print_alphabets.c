@@ -14,7 +14,7 @@
 
 int main(void)
 {
-	char n;
+	char n, x;
 
 	n = 'a';
 	x = 'A'
