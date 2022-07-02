@@ -14,14 +14,20 @@
 
 int main(void)
 {
-	int n;
+	int n, x;
 
 	n = 0;
+	x = 'a';
 
 	while (n <= 9)
 	{
-		putchar('0' + n % 16);
+		putchar('0' + n % 10);
 		n++;
+	}
+
+	while (x <= 'f')
+	{
+		putchar(x);
 	}
 
 	putchar('\n');
