@@ -8,7 +8,7 @@ int _islower(int c)
 {
 	unsigned char x = c;
 
-	if (isalpha(x) == 1)
+	if (islower(x) == 1)
 	{
 		return (1);
 	}
