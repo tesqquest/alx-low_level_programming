@@ -1,13 +1,15 @@
-#include "main.h"
+#include  "main.h"
+
 
 /**
  *_islower - print_alphabet
- *@c: its mine damit
+ *@c: its mine damnit
  *
- *return: 1 if lowercase and 0 otherwise;
- *Does my stuff explained.
+ *Return: 1 if lowercase and 0 otherwise;
+ * Does my stuff explained.
  */
-int _islower (int c)
+
+int _islower(int c)
 {
 	if (c > 96 && c < 123)
 	{
