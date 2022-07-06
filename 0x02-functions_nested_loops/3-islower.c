@@ -7,7 +7,7 @@
  *return: 1 if lowercase and 0 otherwise;
  *Does my stuff explained.
  */
-int _islower(int c)
+int _islower (int c)
 {
 	if (c > 96 && c < 123)
 	{
