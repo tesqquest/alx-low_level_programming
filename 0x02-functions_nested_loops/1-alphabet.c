@@ -1,21 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- **/
-
-int main(void)
+* print_alphabet - print_alphabet
+*
+*/
+void print_alphabet(void)
 {
-	char test = "a";
+	char test = 'a';
 
-	while (test <= "z")
+	while (test <= 'z')
 	{
 		_putchar(test);
 		test++;
 	}
 
 	_putchar('\n');
-	return (0);
 }
+
+/**
+* Main - check code
+*
+* Return: Always 0.
+*/
