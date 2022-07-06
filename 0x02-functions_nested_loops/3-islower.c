@@ -6,9 +6,9 @@
 */
 int _islower(int c)
 {
-	unsigned char x = c;
+	 int x = islower(c);
 
-	if (islower(x) == 1)
+	if (x == 1)
 	{
 		return (1);
 	}
